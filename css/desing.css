@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(29, 223, 213);
+}
+
+h1 ::placeholder{
+    text-align: center;
+}
+
