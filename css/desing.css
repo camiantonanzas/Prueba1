@@ -1,8 +1,21 @@
 body {
-    background-color: rgb(29, 223, 213);
+    background-color: rgb(111, 117, 99);
 }
 
-h1 ::placeholder{
+h1 {
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
+h2 {
+    font-family: sans-serif;
+}
+
+.container {
+    float: right;
+}
+
+
+footer { 
+    font-size: x-small;
+}
