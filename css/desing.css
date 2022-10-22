@@ -1,21 +1,32 @@
-body {
+.body {
     background-color: rgb(111, 117, 99);
+    cursor:url(myBall.cur),auto;
 }
 
-h1 {
+.h1 {
     color:rgb(0, 0, 0);
     text-align: center;
 }
 
-h2 {
+.h2 {
     font-family: sans-serif;
 }
 
-.container {
-    float: right;
+
+.flex-conteiner1 {
+    display: flex;
 }
 
+.flex-conteiner2 {
+    display: flex;
+}
 
-footer { 
+.flex-item {
+    margin:20px;
+    padding: 20px;
+    
+}
+
+.footer { 
     font-size: x-small;
 }
