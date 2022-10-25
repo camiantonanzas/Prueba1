@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(145deg, #f5fbf9 0, #eff1f0 25%, #e9e6e7 50%, #e2dbde 75%, #dcd2d6 100%);
+} 
+
+nav {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #949ea9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: larger;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    background-image: radial-gradient(circle at 50% 50%, #ffecff 0, #f1d9f7 50%, #e0c7eb 100%);
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.caja {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 27px;
+} 
+
+.caja1 {
+    display: grid;    
+}
+
+.caja1bis {
+    display: grid;
+}
+
+dl {
+    padding: 10px;
+}
+
+footer { 
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+}
